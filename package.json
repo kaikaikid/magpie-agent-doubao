@@ -1,0 +1,25 @@
+{
+  "name": "magpie-agent-doubao",
+  "version": "0.1.0",
+  "description": "豆包 (Doubao desktop) as a magpie agent: give the app the skills in magpie's Library",
+  "type": "module",
+  "files": [
+    "doubao.agent.js",
+    "README.md"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-agent",
+    "doubao",
+    "agent-mode",
+    "skills"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaikaikid/magpie-agent-doubao.git"
+  },
+  "magpie": {
+    "agent": "./doubao.agent.js"
+  }
+}
